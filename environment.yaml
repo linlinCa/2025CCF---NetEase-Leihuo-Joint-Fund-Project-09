@@ -1,4 +1,4 @@
-name: MonoFaceCompute
+name: MonoFaceCompute_cu121
 
 channels:
   - pytorch
