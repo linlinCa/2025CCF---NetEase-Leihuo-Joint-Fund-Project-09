@@ -1,0 +1,19 @@
+base_dir: datasets/meta
+output_dir: datasets/meta/output
+
+tracker: EMOCA
+shape_tracker: SMIRK
+
+crop_mode: constant
+crop_scale: 1.4
+resize: 1080
+
+sequences:
+  1:
+    source: embarrassed.mp4
+  2:
+    source: fear.mp4
+
+shape_sequence: 1
+
+steps: ["extract", "crop", "matte", "segment", "landmarks", "track", "optimize", "visualize"]
