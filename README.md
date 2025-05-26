@@ -25,13 +25,13 @@
    - 回到code/MonoFaceCompute项目目录下，运行python process.py -dataset datasets/example.yaml
 
 3. 表情编辑：
-   - 安装blender插件
-   - 将输出的flame.json文件通过插件导入
+   - 安装blender插件(下载链接在model/reame.md)
+   - 将输出的flame.json文件通过blender插件导入
    - 插入时可选择需要修改表情的帧数，然后通过GUI界面更改表情（Exp1,Exp2...）
 
 4. 测试数据
 包含30组完整测试案例：
-- 输出结果：/videos
+- 输出结果在videos文件夹下
 
 
 * 声明
