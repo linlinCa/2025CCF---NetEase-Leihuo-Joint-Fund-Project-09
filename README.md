@@ -20,9 +20,9 @@
    运行命令：conda env create -f environment.yaml
 
 2. 快速启动：
-   - 将输入视频新建文件夹，放入/datasets
-   - 修改、config文件夹中的config.yaml的文件路径和参数
-   - 回到项目目录下，运行python process.py -dataset config/config.yaml
+   - 将输入视频新建文件夹，放入code/MonoFaceCompute/datasets
+   - 修改example.yaml的文件路径和参数
+   - 回到code/MonoFaceCompute项目目录下，运行python process.py -dataset datasets/example.yaml
 
 3. 表情编辑：
    - 安装blender插件
