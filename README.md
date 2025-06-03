@@ -2,7 +2,7 @@
 日期：2025年5月26日
 
 【项目背景】
-本系统基于MonoFaceCompute开源框架完成，选取低维模型为FLAME（general）。
+本系统基于MonoFaceCompute开源框架(https://github.com/KelianB/MonoFaceCompute)完成，选取低维模型为FLAME（general）。
 
 【核心配置】
 1. 运行环境：
@@ -20,19 +20,20 @@
    运行命令：conda env create -f environment.yaml
 
 2. 快速启动：
-   - 将输入视频新建文件夹，放入code/MonoFaceCompute/datasets
-   - 修改example.yaml的文件路径和参数
-   - 回到code/MonoFaceCompute项目目录下，运行python process.py -dataset datasets/example.yaml
+   - 将输入视频新建文件夹，放入/datasets
+   - 修改、config文件夹中的config.yaml的文件路径和参数
+   - 回到项目目录下，运行python process.py -dataset config/config.yaml
 
 3. 表情编辑：
-   - 安装blender插件(下载链接在model/reame.md)
-   - 将输出的flame.json文件通过blender插件导入
-   - 插入时可选择需要修改表情的帧数，然后通过GUI界面更改表情（Exp1,Exp2...）
+   - 安装blender插件
+   - 将输出的flame.json文件通过插件【auto animate from JSON】导入，自动将flame参数转换为blender动画
+   - 用户可以通过GUI界面更改某一帧的表情（Exp1,Exp2...）和姿势pose，点击【SaveFrame】保存修改，然后点击【smooth shape keys】可以让修改后的动画更平滑
+   - 编辑完成后可以直接导出fbx
 
 4. 测试数据
 包含30组完整测试案例：
-- 输出结果在videos文件夹下
-
+- 输出结果：/videos
+- 重定向后的人脸动画可在百度网盘下载：https://pan.baidu.com/s/1bDwRHMejO7RJCX8C113ooA?pwd=xk4h 提取码: xk4h 
 
 * 声明
 本系统为比赛用途开发，核心算法基于MonoFaceCompute实现，特此说明。
