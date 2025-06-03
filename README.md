@@ -1,5 +1,5 @@
 # 2025CCF-网易雷火联合基金课题——基于MonoFaceCompute的表情重定向系统
-日期：2025年5月26日
+日期：2025年5月30日
 
 【项目背景】
 本系统基于MonoFaceCompute开源框架(https://github.com/KelianB/MonoFaceCompute)完成，选取低维模型为FLAME（general）。
