@@ -2,7 +2,7 @@
 日期：2025年5月30日
 
 【项目背景】
-本系统基于MonoFaceCompute开源框架(https://github.com/KelianB/MonoFaceCompute)完成，选取低维模型为FLAME（general）。
+本系统基于MonoFaceCompute开源框架(https://github.com/KelianB/MonoFaceCompute) 完成，选取低维模型为FLAME（general）。
 
 【核心配置】
 1. 运行环境：
